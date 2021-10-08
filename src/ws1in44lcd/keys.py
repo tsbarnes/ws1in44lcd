@@ -26,4 +26,4 @@ def init():
 
 
 def get_input(pin):
-    return GPIO.input(pin)
+    return not GPIO.input(pin)
